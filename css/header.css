@@ -2,9 +2,14 @@
   background-color: #523737;
   color: white;
   padding: 5px 10px 15px 10px;
+  z-index: 9; /* layer들의 순서를 number로 지정 */
   position: fixed;
   width: 100%;
   top: 0;
+}
+
+.top-header a {
+  color: white;
 }
 
 .top-header .header__top,
@@ -24,6 +29,10 @@
 
 .top-header .header__column {
   width: 33.3%;
+}
+
+.top-header .header__bottom .header__column:first-child {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .top-header .header__column:last-child {

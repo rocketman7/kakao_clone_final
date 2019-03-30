@@ -13,16 +13,17 @@
     <title>Chat</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header class="top-header">
+  <body class="body-chat">
+    <header class="top-header chat-header">
       <div class="header__top">
-        <div class="header__column"></div>
-        <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
+        <div class="header__column">
+          <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
+        </div>
         <div class="header__column">
           <span class="header__time">18:38</span>
         </div>
         <div class="header__column">
-          <i class="fas fa-moon"></i> <i class="fab fa-bluetooth-b"></i>
+          <i class="fas fa-moon"></i> <i class="fab fa-bluetooth"></i>
           <span class="header__battery"
             >66%<i class="fas fa-battery-half"> </i
           ></span>
@@ -53,7 +54,7 @@
       <div class="chat__message chat__message-to-me">
         <img src="images/avatar.jpg" class="chat__message-avatar" />
         <div class="chat__message-center">
-          <h3 class="chat__message-username">JJiyny</h3>
+          <h3 class="chat__message-username">JJiny</h3>
           <span class="chat__message-body">Hi, this is JJinymon</span>
         </div>
         <span class="chat__message-time">17:57</span>
@@ -61,12 +62,15 @@
     </main>
     <div class="type-message">
       <i class="fas fa-plus fa-2x"></i>
-      <div class="type-meesage__input">
-        <input type="text" /> <i class="far fa-smile"></i>
+      <div class="type-message__input">
+        <input type="text" /> <i class="far fa-smile fa-lg"></i>
         <span class="record-message">
-          <i class="fas fa-microphone-alt"></i>
+          <i class="fas fa-microphone-alt fa-lg"></i>
         </span>
       </div>
+    </div>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
     </div>
   </body>
 </html>

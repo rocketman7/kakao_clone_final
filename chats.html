@@ -16,8 +16,9 @@
   <body>
     <header class="top-header">
       <div class="header__top">
-        <div class="header__column"></div>
-        <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
+        <div class="header__column">
+          <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
+        </div>
         <div class="header__column">
           <span class="header__time">18:38</span>
         </div>
@@ -29,13 +30,15 @@
         </div>
       </div>
       <div class="header__bottom">
-        <div class="header__column"><span class="header__text">Edit</span></div>
+        <div class="header__column">
+          <span class="header__text">Manage</span>
+        </div>
         <div class="header__column">
           <span class="header__text"
-            >Chats <i class="fas fa-caret-down"></i
-          ></span>
+            >Friends <span class="header__number">1</span></span
+          >
         </div>
-        <div class="header__column"></div>
+        <div class="header__column"><i class="fas fa-cog fa-la"></i></div>
       </div>
     </header>
     <main class="chats">
@@ -86,5 +89,8 @@
         ><span class="tab-bar__title">More</span>
       </a>
     </nav>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
+    </div>
   </body>
 </html>
